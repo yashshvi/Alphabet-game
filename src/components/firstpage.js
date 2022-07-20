@@ -74,7 +74,7 @@ if(flag==true && initialval!="" ){
         setletterfun();
         setmycount(mycount + 1);
          
-        if (mycount == 1) {
+        if (mycount == 20) {
              temp=(minute*60+seconds);
             //  console.log(temp);
              
