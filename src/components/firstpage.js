@@ -43,8 +43,9 @@ export default function Firstpage() {
         if (flag == true) {
             setinputval(event.key);
         } else {
-            document.getElementById('myInput').value ="";
-            // alert("press start button to start the game");
+         
+            alert("press start button to start the game");
+            document.getElementById("myinput").value = "";
         }
     }
 
